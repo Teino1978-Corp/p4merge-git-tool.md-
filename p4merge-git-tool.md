@@ -33,9 +33,7 @@ $ git config --global --unset mergetool.p4merge.cmd
 
 The same applies to `difftool.p4merge.cmd`.
 
-### Editing global config file
-
-This alternative might be easier but means directly editing the global config file, which would be dangerous.
+### Editing the global configuration file
 
 Open `~/.gitconfig` with an editor: 
 ```
