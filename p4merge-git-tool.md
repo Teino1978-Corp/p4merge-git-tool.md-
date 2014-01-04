@@ -35,19 +35,15 @@ The same applies to `difftool.p4merge.cmd`.
 
 ### Editing the global configuration file
 
-Open `~/.gitconfig` with an editor: 
-```
-$ git config --global --edit
-```
-
-and add or change: 
+Open `~/.gitconfig` (`git config --global --edit`) and add or change: 
 
 ```
 [merge]
 	tool = p4merge
 [mergetool "p4merge"]
 	path = C:\\Program Files\\Perforce\\p4merge.exe
-
+```
+```
 [diff]
 	tool = p4merge
 [difftool "p4merge"]
